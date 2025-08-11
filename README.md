@@ -1,8 +1,8 @@
+Running the program is simple and the terminal will tell you what to do
 
-Supported Example Functions
-===========================
 
-You can input any function of x using standard Python math syntax. Here are some examples:
+When it asks you for an equation it is very specific on using numpy supported formatting.
+Here is a list of common supported equations.
 
 1. Power / Polynomial
    - x**2 + 3*x + 5       → Quadratic function
@@ -22,20 +22,4 @@ You can input any function of x using standard Python math syntax. Here are some
 5. Constants
    - pi                   → Pi (≈ 3.1416)
 
-6. Mixed / Composite
-   - x**2 * sin(x)        → Mixed trigonometric and polynomial
-   - 1 / (1 + x**2)       → Rational function
-
-Syntax Tips
------------
-- Use `**` for powers (not `^`)
-- Use lowercase functions: sin, cos, log, exp
-- Input must be a valid Python expression using x
-- Trig functions use radians, not degrees
-
-Invalid Examples (will NOT work)
---------------------------------
-- x^2         → use x**2 instead
-- Sin(x)      → use lowercase sin(x)
-- 1/x-2)      → mismatched parentheses
-- sqrt(x)     → not supported unless manually added
+dm me any bugs please feel free to download
